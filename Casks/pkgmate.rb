@@ -14,11 +14,11 @@ cask "pkgmate" do
   on_macos do
     on_intel do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-darwin-amd64.tar.gz"
-      sha256 "d5245b900d2d0f0aa1b96cfb93d48ac906894ecb41ea0497dcfa3e179fc1daa0"
+      sha256 "acf3360b499dd8bc4ff11aca6d0488d404bc2474dea15dbcbecdd8f1b0f02aa5"
     end
     on_arm do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-darwin-arm64.tar.gz"
-      sha256 "ef170af1e517e4bdec19b35ef1c41b6dedae25672f3c9530781579500277ebb6"
+      sha256 "e9124c84cd5dcbb83b8bf712bc0508a9ab89ae9c41247c709b63c184b48ccf5c"
     end
   end
 
