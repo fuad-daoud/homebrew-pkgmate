@@ -3,7 +3,7 @@ cask "pkgmate" do
   name "pkgmate"
   desc "TUI application to manage your dependencies"
   homepage "https://github.com/fuad-daoud/pkgmate"
-  version "0.7.0"
+  version "0.8.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pkgmate" do
   on_macos do
     on_intel do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-darwin-amd64.tar.gz"
-      sha256 "ff558404cad3a9456eb994448dba3e4de2949fd25f46ce3174f78f62e7e8bdbe"
+      sha256 "ec1b39ed829f85b770941381ef1fd6763677e26402cd1527507911d49322f6d1"
     end
     on_arm do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-darwin-arm64.tar.gz"
-      sha256 "ebcc22a3b92c2d097479caa0b56713a94e47b1a77b4ba152fc81853e4267ffc3"
+      sha256 "5e7da48d9b2ef8d0ea12ac37183f89bda7c656f4f3171adfc19e8cafbb55f085"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-linux-amd64.tar.gz"
-      sha256 "641d82679683ba059b82032a9de3fdcf785edd89c47b27cd6e93376bfaad216c"
+      sha256 "e6e6943a63980bf954f5295b295810d9a24798521eeb1e5daf57cb7ee7fcc8ae"
     end
     on_arm do
       url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-linux-arm64.tar.gz"
-      sha256 "7d3bc4fd371b447737823b255ce3e9c0e4c4145858da7eb4ea8dce211d7ad94f"
+      sha256 "528447940d3351cfe9c1b4ea78196216c8aed18fe9d82e320c368f55f907ff85"
     end
   end
 
