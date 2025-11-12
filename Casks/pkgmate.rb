@@ -3,7 +3,7 @@ cask "pkgmate" do
   name "pkgmate"
   desc "TUI application to manage your dependencies"
   homepage "https://github.com/fuad-daoud/pkgmate"
-  version "0.11.0"
+  version "0.11.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,7 +13,7 @@ cask "pkgmate" do
 
   on_macos do
     url "https://github.com/fuad-daoud/pkgmate/releases/download/v#{version}/pkgmate-brew-darwin-universal.tar.gz"
-    sha256 "5e7934269529ce41fd9dddd01f9e50514b8fdec6ad122560a6986ded43361be9"
+    sha256 "08ae592fbc428d9058044e2c151b8ab137507617200b0c52ed496de38cf6cb48"
   end
 
   # No zap stanza required
